@@ -19,22 +19,30 @@
 			<div id="wrapper" class="divided" class="fullscreen">
 				
 				<!-- Zero Video -->
-				<section class="banner style5 content-align-center fullscreen onload-content-fade-in">
-						<div class="content">
-							<iframe src="https://player.vimeo.com/video/513349723?badge=0&amp;autopause=0&amp;
-								player_id=0&amp;app_id=58479" width="1920" height="1080" frameborder="0" 
-								allow="autoplay; fullscreen; picture-in-picture" allowfullscreen 
-								title="Big Data: The Rise of Media Names">
-							</iframe>
-						</div>
-					</section>
 				
+					<!--<iframe src="https://player.vimeo.com/video/513349723?badge=0&amp;autopause=0&amp;
+						player_id=0&amp;app_id=58479" width=100% height=100vh frameborder="0" 
+						allow="autoplay; picture-in-picture" allowfullscreen 
+						title="Big Data: The Rise of Media Names">
+					</iframe> -->
 				
+				<video src="https://player.vimeo.com/video/513349723?badge=0&amp;autopause=0&amp;
+						player_id=0&amp;app_id=58479" autoplay muted loop></video>
+
+					<style>
+					    video {
+						height: 100vh;
+						width: 100%;
+						object-fit: cover;
+						position: absolute;
+					    }
+					</style>
+			
 				
 				<!-- One -->
 					<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
 						<div class="content">
-							<h1>The Story of Team F...test image position center</h1>
+							<h1>The Story of Team F...test image cover</h1>
 							<p class="major">über die Kylo Rens und Wolverines der irdischen Welt. <a href="https://html5up.net">HTML5 UP</a> and released for free under the <a href="https://html5up.net/license">Creative Commons</a>.</p>
 							<ul class="actions stacked">
 								<li><a href="#first" class="button big wide smooth-scroll-middle">Zu den Data Stories</a></li>
