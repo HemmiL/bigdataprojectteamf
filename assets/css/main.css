@@ -100,7 +100,7 @@ input, select, textarea {
 	/*Farbe der Überschrift???*/
 	body {
 		background: transparent;
-		color: whitesmoke;
+		color: Whitesmoke;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
