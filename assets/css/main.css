@@ -2633,6 +2633,7 @@ input, select, textarea {
 		border-radius: 4px;
 		display: inline-block;
 		position: relative;
+		background: url("/sternenhimmel.jpg");
 	}
 
 		.image img {
