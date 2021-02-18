@@ -3808,13 +3808,6 @@ input, select, textarea {
 			object-position: right;
 		}
 
-		.banner.style2.elastic-video {
-		position: relative;
-		padding-bottom: 55%;
-		padding-top: 15px;
-		height: 0;
-		overflow: hidden;
-		}
 		.banner.style2.elastic-video iframe {
 		position: absolute;
 		top: 0;
