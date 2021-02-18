@@ -8567,7 +8567,9 @@ input, select, textarea {
 		}
 
 		#wrapper > .color3 {
-			background-color: #ab7aad;
+			background-image: url("sternenhimmel.jpg") hotpink;
+			background-position: top;
+			background-attachment: scroll;
 		}
 
 		#wrapper > .color4 {
