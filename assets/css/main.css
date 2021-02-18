@@ -8583,7 +8583,7 @@ input, select, textarea {
 		}
 
 		#wrapper > .color3 {
-			background: url("/sternenhimmel.jpg");
+			background: transparent;
 		}
 
 		#wrapper > .color4 {
