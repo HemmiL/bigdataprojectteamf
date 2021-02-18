@@ -2189,7 +2189,7 @@ input, select, textarea {
 	.button {
 		background-color: transparent;
 		box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2);
-		color: #000000 !important;
+		color: Whitesmoke !important;			/*Änderung der default-Button Farbe von #000000 in Whitesmoke*/
 	}
 
 		input[type="submit"]:hover,
@@ -2198,7 +2198,7 @@ input, select, textarea {
 		button:hover,
 		.button:hover {
 			box-shadow: inset 0 0 0 1px #47D3E5;
-			color: #47D3E5 !important;
+			color: DarkOliveGreen !important;		/*Änderung der default-Button Hover Farbe in DarkOliveGreen*/
 		}
 
 		input[type="submit"]:active,
@@ -2207,8 +2207,8 @@ input, select, textarea {
 		button:active,
 		.button:active {
 			background-color: rgba(71, 211, 229, 0.2);
-			box-shadow: inset 0 0 0 1px #47D3E5;
-			color: #47D3E5 !important;
+			box-shadow: inset 0 0 0 1px DarkOliveGreen;	/*Änderung der default-Button active Farbe von #47D3E5 in DarkOliveGreen*/
+			color: DarkOliveGreen !important;
 		}
 
 		input[type="submit"].primary,
@@ -2216,7 +2216,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #000000;
+			background-color: DarkOliveGreen;			/*Änderung der primary-Button Farbe von #000000 in DarkOliveGreen*/
 			box-shadow: none;
 			color: #ffffff !important;
 		}
@@ -2226,7 +2226,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #47D3E5;
+				background-color: DarkOliveGreen;		/*Änderung der primary-Button hover Farbe von #47D3E5 in DarkOliveGreen*/
 			}
 
 			input[type="submit"].primary:active,
@@ -2234,7 +2234,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #1ebdd1;
+				background-color: DarkOliveGreen;		/*Änderung der primary-Button active Farbe von #1ebdd1 in DarkOliveGreen*/
 			}
 
 /* Form */
