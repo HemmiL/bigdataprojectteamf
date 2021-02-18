@@ -152,7 +152,7 @@ input, select, textarea {
 		}
 
 	body {
-		background-image: url("sternenhimmel.jpg");
+		background-image: url("/sternenhimmel.jpg");
 	}
 
 	body, input, select, textarea {
@@ -8566,7 +8566,7 @@ input, select, textarea {
 		}
 
 		#wrapper > .color3 {
-			background: url("sternenhimmel.jpg");
+			background: url("/sternenhimmel.jpg");
 		}
 
 		#wrapper > .color4 {
