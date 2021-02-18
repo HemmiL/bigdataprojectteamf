@@ -317,11 +317,11 @@ input, select, textarea {
 	}
 
 	input, select, textarea {
-		color: Whitesmoke;			/*change Link color from black #000000 to Whitesmoke*/
+		color: Gainsboro;			/*change Link color from black #000000 to Gainsboro*/
 	}
 
 	a {
-		color: Whitesmoke;			/*change Link color from black #000000 to Whitesmoke*/
+		color: Gainsboro;			/*change Link color from black #000000 to Gainsboro*/
 	}
 
 		a:hover {
@@ -329,11 +329,11 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: Whitesmoke;			/*change Link color from black #000000 to Whitesmoke*/
+		color: Gainsboro;			/*change Link color from black #000000 to Gainsboro*/
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: Whitesmoke;			/*change Link color from black #000000 to Whitesmoke*/
+		color: Gainsboro;			/*change Link color from black #000000 to Gainsboro*/
 	}
 
 	blockquote {
@@ -2188,8 +2188,8 @@ input, select, textarea {
 	button,
 	.button {
 		background-color: transparent;
-		box-shadow: inset 0 0 0 1px Whitesmoke;		/*Änderung der default-Button rand Farbe von rgba(0, 0, 0, 0.2) in Whitesmoke*/
-		color: Whitesmoke !important;			/*Änderung der default-Button Farbe von #000000 in Whitesmoke*/
+		box-shadow: inset 0 0 0 1px Gainsboro;		/*Änderung der default-Button rand Farbe von rgba(0, 0, 0, 0.2) in Gainsboro*/
+		color: Gainsboro !important;			/*Änderung der default-Button Farbe von #000000 in Gainsboro*/
 	}
 
 		input[type="submit"]:hover,
@@ -2216,7 +2216,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: DarkOliveGreen;			/*Änderung der primary-Button Farbe von #000000 in DarkOliveGreen*/
+			background-color: Gainsboro;			/*Änderung der primary-Button Farbe von #000000 in Gainsboro*/
 			box-shadow: none;
 			color: #ffffff !important;
 		}
@@ -2226,7 +2226,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: DarkOliveGreen;		/*Änderung der primary-Button hover Farbe von #47D3E5 in DarkOliveGreen*/
+				background-color: Gainsboro;		/*Änderung der primary-Button hover Farbe von #47D3E5 in Gainsboro*/
 			}
 
 			input[type="submit"].primary:active,
@@ -2234,7 +2234,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: DarkOliveGreen;		/*Änderung der primary-Button active Farbe von #1ebdd1 in DarkOliveGreen*/
+				background-color: Gainsboro;		/*Änderung der primary-Button active Farbe von #1ebdd1 in Gainsboro*/
 			}
 
 /* Form */
