@@ -152,8 +152,7 @@ input, select, textarea {
 		}
 
 	body {
-		background-image: url(sternenhimmel.jpg);
-		color: Azure;
+		background-image: url("sternenhimmel.jpg");
 	}
 
 	body, input, select, textarea {
