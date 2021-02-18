@@ -99,8 +99,7 @@ input, select, textarea {
 	}
 	/*KA was das für eine Farbe Festlegt*/
 	body {
-		background: Whitesmoke;
-		color: Whitesmoke;
+		background: url("/sternenhimmel.jpg");
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -153,7 +152,7 @@ input, select, textarea {
 		}
 	/* Farbe des kleinen Textes im Banner und Footer*/
 	body {
-		background-color: transparent;
+		background: url("/sternenhimmel.jpg");
 		color: Gainsboro;
 	}
 
