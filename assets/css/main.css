@@ -152,7 +152,8 @@ input, select, textarea {
 		}
 
 	body {
-		background-image: url("/sternenhimmel.jpg");
+		background-color: transparent;
+		color: Hotpink
 	}
 
 	body, input, select, textarea {
