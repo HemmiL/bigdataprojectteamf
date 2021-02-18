@@ -97,9 +97,10 @@ input, select, textarea {
 	*, *:before, *:after {
 		box-sizing: inherit;
 	}
-
+	/*Farbe der Überschrift???*/
 	body {
 		background: transparent;
+		color: whitesmoke;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -150,10 +151,10 @@ input, select, textarea {
 			}
 
 		}
-
+	/* Farbe des kleinen Textes im Banner und Footer*/
 	body {
 		background-color: transparent;
-		color: Hotpink
+		color: Whitesmoke;
 	}
 
 	body, input, select, textarea {
