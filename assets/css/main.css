@@ -97,7 +97,7 @@ input, select, textarea {
 	*, *:before, *:after {
 		box-sizing: inherit;
 	}
-	/*Farbe der Überschrift???*/
+	/*KA was das für eine Farbe Festlegt*/
 	body {
 		background: Whitesmoke;
 		color: Whitesmoke;
@@ -317,11 +317,11 @@ input, select, textarea {
 	}
 
 	input, select, textarea {
-		color: #000000;
+		color: Whitesmoke;			/*change Link color from black #000000 to Whitesmoke*/
 	}
 
 	a {
-		color: #000000;
+		color: Whitesmoke;			/*change Link color from black #000000 to Whitesmoke*/
 	}
 
 		a:hover {
@@ -329,11 +329,11 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #000000;
+		color: Whitesmoke;			/*change Link color from black #000000 to Whitesmoke*/
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #000000;
+		color: Whitesmoke;			/*change Link color from black #000000 to Whitesmoke*/
 	}
 
 	blockquote {
