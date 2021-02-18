@@ -8567,7 +8567,7 @@ input, select, textarea {
 		}
 
 		#wrapper > .color3 {
-			background: url(sternenhimmel.jpg);
+			background: url("sternenhimmel.jpg");
 		}
 
 		#wrapper > .color4 {
