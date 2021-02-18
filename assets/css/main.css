@@ -2189,7 +2189,6 @@ input, select, textarea {
 	.button {
 		background-color: transparent;
 		box-shadow: inset 0 0 0 1px Whitesmoke;		/*Änderung der default-Button rand Farbe von rgba(0, 0, 0, 0.2) in Whitesmoke*/
-	}
 		color: Whitesmoke !important;			/*Änderung der default-Button Farbe von #000000 in Whitesmoke*/
 	}
 
