@@ -2635,10 +2635,9 @@ input, select, textarea {
 
 	.image {
 		border: 0;
-		border-radius: 200px;
+		border-radius: 4px;
 		display: inline-block;
 		position: relative;
-		background: url("/sternenhimmel.jpg");
 	}
 
 		.image img {
@@ -2657,19 +2656,19 @@ input, select, textarea {
 
 		.image.left {
 			float: left;
-			margin: 2rem 5rem 2rem 5rem;
+			margin: 0 1.5rem 1rem 0;
 			top: 0.25rem;
 		}
 
 		.image.right {
 			float: right;
-			margin: 2rem 5rem 2rem 5rem;
+			margin: 0 0 1rem 1.5rem;
 			top: 0.25rem;
 		}
 
 		.image.fit {
 			display: block;
-			margin: 2rem 5rem 2rem 5rem;
+			margin: 0 0 2rem 0;
 			width: 100%;
 		}
 
@@ -2679,14 +2678,13 @@ input, select, textarea {
 
 		.image.main {
 			display: block;
-			margin: 2rem 5rem 2rem 5rem;
+			margin: 0 0 3rem 0;
 			width: 100%;
 		}
 
 			.image.main img {
 				width: 100%;
 			}
-
 /* List */
 
 	ol {
@@ -3649,7 +3647,7 @@ input, select, textarea {
 /* Banner (style2) */
 
 	.banner.style2 {
-		padding: 5.25rem 5.25rem 3.25rem 5.25rem ; 			/*Änderung des Rahmens padding: 5.25rem 5.25rem 3.25rem 5.25rem ;*/
+		padding: 5.25rem 5.25rem 3.25rem 5.25rem ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -3669,30 +3667,14 @@ input, select, textarea {
 	}
 
 		.banner.style2 .content {
-			padding: 5.25rem 5.25rem 3.25rem 5.25rem ; 		/*padding: 5.25rem 5.25rem 3.25rem 5.25rem ;*/
+			padding: 5.25rem 5.25rem 3.25rem 5.25rem ;
 			position: relative;
-			width: 40rem; 					/*width: 40rem;*/	
+			width: 40rem;
 			max-width: 100%;
 			background-color: inherit;
-			border-radius: 0.5rem;				/*border-radius: 0.5rem;*/
-			margin-bottom: 2rem;				/*margin-bottom: 2rem;*/
+			border-radius: 0.5rem;
+			margin-bottom: 2rem;
 			z-index: 1;
-		}
-		.banner.style2 .content.embed-container {
-		  position: relative; 
-		  padding-bottom: 56.25%; /* ratio 16x9 */
-		  height: 0; 
-		  overflow: hidden; 
-		  width: 100%;
-		  height: auto;
-		}
-		.banner.style2 .content.embed-container iframe {
-
-		  position: absolute; 
-		  top: 0; 
-		  left: 0; 
-		  width: 100%; 
-		  height: 100%; 
 		}
 
 		.banner.style2 .image {
@@ -3733,11 +3715,11 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			.banner.style2 {
-				padding: 3.75rem 3.75rem 1.75rem 3.75rem ; 		 	/*padding: 3.75rem 3.75rem 1.75rem 3.75rem*/
+				padding: 3.75rem 3.75rem 1.75rem 3.75rem ;
 			}
 
 				.banner.style2 .content {
-					padding: 3.75rem 3.75rem 1.75rem 3.75rem ; 		/*padding: 3.75rem 3.75rem 1.75rem 3.75rem*/
+					padding: 3.75rem 3.75rem 1.75rem 3.75rem ;
 				}
 
 		}
@@ -3745,11 +3727,11 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			.banner.style2 {
-				padding: 4rem 3rem 2rem 3rem ; 				/*padding: 4rem 3rem 2rem 3rem ;*/
+				padding: 4rem 3rem 2rem 3rem ;
 			}
 
 				.banner.style2 .content {
-					padding: 4rem 3rem 2rem 3rem ; 			/*padding: 4rem 3rem 2rem 3rem ;*/
+					padding: 4rem 3rem 2rem 3rem ;
 				}
 
 		}
@@ -3757,10 +3739,11 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			.banner.style2 {
-				padding: 3rem 3rem 1rem 3rem ;					/*padding: 3rem 3rem 1rem 3rem*/
+				padding: 3rem 3rem 1rem 3rem ;
 			}
+
 				.banner.style2 .content {
-					padding: 3.75rem 2.25rem 1.75rem 2.25rem ;				/*3.75rem 2.25rem 1.75rem 2.25rem*/
+					padding: 3.75rem 2.25rem 1.75rem 2.25rem ;
 				}
 
 		}
@@ -3768,10 +3751,11 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.banner.style2 {
-				padding: 2rem 2rem 0.1rem 2rem ;					/*padding: 2rem 2rem 0.1rem 2rem*/
+				padding: 2rem 2rem 0.1rem 2rem ;
 			}
+
 				.banner.style2 .content {
-					padding: 2.5rem 1.5rem 0.5rem 1.5rem ;				/*padding: 2.5rem 1.5rem 0.5rem 1.5rem ;*/
+					padding: 2.5rem 1.5rem 0.5rem 1.5rem ;
 				}
 
 		}
