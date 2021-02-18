@@ -57,6 +57,9 @@ body {
 
 mark {
 	background: url("/sternenhimmel.jpg");
+	background-repeat: repeat-y;
+	background-position: center;
+  	background-size: cover;
 	color: inherit;
 }
 
@@ -100,6 +103,9 @@ input, select, textarea {
 	/*KA was das für eine Farbe Festlegt*/
 	body {
 		background: url("/sternenhimmel.jpg");
+		background-repeat: repeat-y;
+		background-position: center;
+  		background-size: cover;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
