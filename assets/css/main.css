@@ -7217,53 +7217,44 @@ input, select, textarea {
 	}
 
 /* Wrapper (style1) */
-
-	.wrapper.style1 > .inner {
-		padding: 7rem 3.5rem 5rem 3.5rem ;
-		margin: 0 auto;
-		max-width: 100%;
-		width: 64rem;
-	}
-
-		.wrapper.style1 > .inner.medium {
-			width: 48rem;
-		}
-
-		.wrapper.style1 > .inner.small {
-			width: 32rem;
-		}
-
-	@media screen and (max-width: 1680px) {
-
 		.wrapper.style1 > .inner {
-			padding: 5rem 2.5rem 3rem 2.5rem ;
+			padding: 1.5rem;
+			margin: 0 auto;
+			max-width: 100%;
+			width: 95%;
 		}
 
-	}
+			.wrapper.style1 > .inner.medium {
+				width: 50%;
+			}
 
-	@media screen and (max-width: 1280px) {
+			.wrapper.style1 > .inner.small {
+				width: 30%;
+			}
 
-		.wrapper.style1 > .inner {
-			padding: 4rem 4rem 2rem 4rem ;
+		@media screen and (max-width: 1280px) {
+
+			.wrapper.style1 > .inner {
+				padding: 1rem;
+			}
+
 		}
 
-	}
+		@media screen and (max-width: 980px) {
 
-	@media screen and (max-width: 980px) {
+			.wrapper.style1 > .inner {
+				padding: 0.7rem ;
+			}
 
-		.wrapper.style1 > .inner {
-			padding: 4.5rem 3rem 2.5rem 3rem ;
 		}
 
-	}
+		@media screen and (max-width: 736px) {
 
-	@media screen and (max-width: 736px) {
+			.wrapper.style1 > .inner {
+				padding: 0.5rem;
+			}
 
-		.wrapper.style1 > .inner {
-			padding: 3rem 2rem 1rem 2rem ;
 		}
-
-	}
 
 /* Wrapper (style2) */
 
@@ -8263,15 +8254,15 @@ input, select, textarea {
 
 		#wrapper > .invert {
 			background-color: #000000;
-			color: #ffffff;
+			color: #dcdcdc;
 		}
 
 			#wrapper > .invert input, #wrapper > .invert select, #wrapper > .invert textarea {
-				color: #ffffff;
+				color: #dcdcdc;
 			}
 
 			#wrapper > .invert a {
-				color: #ffffff;
+				color: #ff0000;
 			}
 
 				#wrapper > .invert a:hover {
@@ -8279,11 +8270,11 @@ input, select, textarea {
 				}
 
 			#wrapper > .invert strong, #wrapper > .invert b {
-				color: #ffffff;
+				color: #dcdcdc;
 			}
 
 			#wrapper > .invert h1, #wrapper > .invert h2, #wrapper > .invert h3, #wrapper > .invert h4, #wrapper > .invert h5, #wrapper > .invert h6 {
-				color: #ffffff;
+				color: #dcdcdc;
 			}
 
 			#wrapper > .invert blockquote {
@@ -8359,7 +8350,7 @@ input, select, textarea {
 					}
 
 			#wrapper > .invert label {
-				color: #ffffff;
+				color: #dcdcdc;
 			}
 
 			#wrapper > .invert input[type="text"],
@@ -8607,4 +8598,3 @@ input, select, textarea {
 			#wrapper.divided > .invert:first-child {
 				box-shadow: none !important;
 			}
-	
