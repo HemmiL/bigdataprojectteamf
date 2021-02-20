@@ -11,351 +11,203 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+		<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+		<script src="https://player.vimeo.com/api/player.js"></script>
+
+    <script>
+    $(function(){
+      $("#00_Movienames_gesamt").load("/graphs/00_Movienames_gesamt.html");
+		  $("#01_Bekannter_Als_Luke").load("/graphs/01_Bekannter_Als_Luke.html");
+			$("#AnDrHeSe").load("/graphs/AnDrHeSe.html");
+			$("#AnHerBalken").load("/graphs/AnHerBalken.html");
+			$("#Arya").load("/graphs/Arya.html");
+			$("#DaenTyr").load("/graphs/DaenTyr.html");
+			$("#Leia").load("/graphs/Leia.html");
+			$("#Luke").load("/graphs/Luke.html");
+    });
+    </script>
 	</head>
+
+
+		<!-- Textkontrolle
+		<h1> bis <h6> Überschriften
+		<p>: Absatz
+		<em> Kursiv
+		<b> Fett
+		<p align="justify"> Blocksatz
+		-->
+
+
+
+
 	<body class="is-preload">
 
 		<!-- Wrapper -->
 			<div id="wrapper" class="divided">
 
-				<!-- One -->
-					<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
-						<div class="content">
-							<h1>The Story of Team F...</h1>
-							<p class="major">über die Kylo Rens und Wolverines der irdischen Welt. <a href="https://html5up.net">HTML5 UP</a> and released for free under the <a href="https://html5up.net/license">Creative Commons</a>.</p>
-							<ul class="actions stacked">
-								<li><a href="#first" class="button big wide smooth-scroll-middle">Zu den Data Stories</a></li>
-							</ul>
-						</div>
-						<div class="image">
-							<img src="images/banner.jpg" alt="" />
-						</div>
-					</section>
+				<!-- Bannervideo -->
+				<div style="padding:56.25% 0 0 0;position:relative;">
+					<iframe src="https://player.vimeo.com/video/514231061?autoplay=1&color=ff0000&title=0&byline=0&portrait=0"
+									style="position:absolute;top:0;left:0;width:100%;height:100%;"
+									frameborder="0"
+									allow="autoplay; fullscreen; picture-in-picture"
+									allowfullscreen>
+					</iframe>
+				</div>
 
-				<!-- Two -->
-					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
-						<div class="content">
-							<h2>Die Eingebung bei der Namenswahl</h2>
-							<p>Jeder hat einen, jeder benutzt sie. Ihre Geschichten gehen oft Jahrhunderte zurück, wandeln sich mit der Zeit und stellenweise werden neue erschaffen: Namen. Während der Nachname einen Menschen einer Familie zuordnet, wird der Vorname individuell gewählt. Die erste leuchtende Reklame der Persönlichkeit, die im Laufe des Lebens mit Inhalt gefüllt wird. Das Streben nach Einzigartigkeit spornt die Kreativität zahlreicher kommender Eltern an. Impulse für Ideen kommen dafür aus allen möglichen Richtungen. Das verdeutlichen Beispiele, welche Vornamen in Deutschland vorkommen: Godpower, Imperial-Purity oder gar Windsbraut. Sobald ein Don Armani Karl-Heinz vor einem steht, wundert man sich, weshalb Namen wie Bierstübl, Steißbein oder Tomtom nicht zugelassen wurden. Letzterer hätte sich wenigstens nie in seinem Leben verfahren. Nur gibt es Reglementierungen, die bestimmen, welche Vornamen verwendet werden dürfen. Nichtsdestotrotz wirkt die Tatsache fast schon bizarr, dass Fanta von der Gesellschaft für Deutsche Sprache zugelassen wurde, Pepsi-Cola jedoch nicht. 
 
-Diese Begrenzungen – manche mögen es sogar Diskriminierung nennen – gibt es im kreativen Schaffen nicht. Autoren dürfen sich austoben, sofern Produzenten und der eigene Anspruch keinen Riegel davor schieben. Besondere Figuren erfordern besondere Namen. Wie Namen zusammengestellt sind, ist regional sogar unterschiedlich. In Ländern wie China, Japan und Ungarn ist es gängig den Rufnamen hinter den Familiennamen zu stellen. Hingegen steht dieser z.B. in Deutschland und den USA am Anfang. Eben als Rufname, mit dem eine Person angesprochen wird. Zwischennamen kommen auch nicht selten vor. In Russland ist z.B. der Name des eigenen Vaters als Zwischenname gebräuchlich. Wäre es bei der Figur Luke Skywalker aus Star Wars dann Luke Anakin Skywalker oder Luke Vader Skywalker? In Russland vermutlich doch eher sowas wie Lukasz Anakolji Skywalkerow.
+				<section class="wrapper style1 align-center">
+					<div class="inner" style="padding:45% 0 45% 0;position:relative;">
+						<h1>Big Data<br>The Rise of Media Names</h1>
+					</div>
+				</section>
 
-Das ist jedoch die Krux an der Sache: Fiktive Figuren können Eltern bei der Namenswahl inspirieren. Es gab Zeiten, in denen dienten hauptsächlich Heilige als Quelle für Ideen. Die Bibel bot seit jeher viel Inspiration für die Namenswahl. Mittlerweile erreichen Medien gefühlt diesen Heiligenstatus. Diese Thematik greift folgendes Projekt auf. Wie stark ist denn nun der Einfluss verschiedener Filme und Serien auf die Namenswahl in den USA?
-</p>
-							<ul class="actions stacked">
-								<li><a href="#" class="button">Learn More</a></li>
-							</ul>
-						</div>
-						<div class="image">
-							<img src="images/spotlight01.jpg" alt="" />
-						</div>
-					</section>
 
-				<!-- Three -->
-					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
-						<div class="content">
-							<h2>Tempus adipiscing</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum dolor sit amet.</p>
-							<ul class="actions stacked">
-								<li><a href="#" class="button">Learn More</a></li>
-							</ul>
-						</div>
-						<div class="image">
-							<img src="images/spotlight02.jpg" alt="" />
-						</div>
-					</section>
 
-				<!-- Four -->
-					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
-						<div class="content">
-							<h2>Pharetra etiam nulla</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum dolor sit amet.</p>
-							<ul class="actions stacked">
-								<li><a href="#" class="button">Learn More</a></li>
-							</ul>
-						</div>
-						<div class="image">
-							<img src="images/spotlight03.jpg" alt="" />
-						</div>
-					</section>
 
-				<!-- Five -->
-					<section class="wrapper style1 align-center">
-						<div class="inner">
-							<h2>Massa sed condimentum</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum.</p>
-						</div>
+				<section class="wrapper style1 align-center" style="padding:0 15% 30% 15%;position:relative;">
+					<div class="inner">
+						<h2><b>Die Eingebung bei der Namenswahl</b></h2>
+						<p align="justify">Jeder hat einen, jeder benutzt sie. Ihre Geschichten gehen oft Jahrhunderte zurück, wandeln sich mit der Zeit und stellenweise werden neue erschaffen: Namen. Während der Nachname einen Menschen einer Familie zuordnet, wird der Vorname individuell gewählt. Die erste leuchtende Reklame der Persönlichkeit, die im Laufe des Lebens mit Inhalt gefüllt wird. Das Streben nach Einzigartigkeit spornt die Kreativität zahlreicher kommender Eltern an. Impulse für Ideen kommen dafür aus allen möglichen Richtungen. Das verdeutlichen Beispiele, welche Vornamen in Deutschland vorkommen: <b>Godpower</b>, <b>Imperial-Purity</b> oder gar <b>Windsbraut</b>. Sobald ein Don Armani Karl-Heinz vor einem steht, wundert man sich, weshalb Namen wie <b>Bierstübl</b>, <b>Steißbein</b> oder <b>Tomtom</b> nicht zugelassen wurden. Letzterer hätte sich wenigstens nie in seinem Leben verfahren. Nur gibt es Reglementierungen, die bestimmen, welche Vornamen verwendet werden dürfen. Nichtsdestotrotz wirkt die Tatsache fast schon bizarr, dass Fanta von der Gesellschaft für Deutsche Sprache zugelassen wurde, <b>Pepsi-Cola</b> jedoch nicht.</p>
+						<p align="justify">Diese Begrenzungen – manche mögen es sogar Diskriminierung nennen – gibt es im kreativen Schaffen nicht. Autoren dürfen sich austoben, sofern Produzenten und der eigene Anspruch keinen Riegel davor schieben. Besondere Figuren erfordern besondere Namen. Wie Namen zusammengestellt sind, ist regional sogar unterschiedlich. In Ländern wie China, Japan und Ungarn ist es gängig den Rufnamen hinter den Familiennamen zu stellen. Hingegen steht dieser z.B. in Deutschland und den USA am Anfang. Eben als Rufname, mit dem eine Person angesprochen wird. Zwischennamen kommen auch nicht selten vor. In Russland ist z.B. der Name des eigenen Vaters als Zwischenname gebräuchlich. Wäre es bei der Figur Luke Skywalker aus Star Wars dann Luke Anakin Skywalker oder Luke Vader Skywalker? In Russland vermutlich doch eher sowas wie Lukasz Anakolji Skywalkerow.</p>
+						<p align="justify">Das ist jedoch die Krux an der Sache: Fiktive Figuren können Eltern bei der Namenswahl inspirieren. Es gab Zeiten, in denen dienten hauptsächlich Heilige als Quelle für Ideen. Die Bibel bot seit jeher viel Inspiration für die Namenswahl. Mittlerweile erreichen Medien gefühlt diesen Heiligenstatus. Diese Thematik greift folgendes Projekt auf. Wie stark ist denn nun der Einfluss verschiedener Filme und Serien auf die Namenswahl in den USA?</p>
+					</div>
+				</section>
 
-						<!-- Gallery -->
-							<div class="gallery style2 medium lightbox onscroll-fade-in">
-								<article>
-									<a href="images/gallery/fulls/01.jpg" class="image">
-										<img src="images/gallery/thumbs/01.jpg" alt="" />
-									</a>
-									<div class="caption">
-										<h3>Ipsum Dolor</h3>
-										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
-										</ul>
-									</div>
-								</article>
-								<article>
-									<a href="images/gallery/fulls/02.jpg" class="image">
-										<img src="images/gallery/thumbs/02.jpg" alt="" />
-									</a>
-									<div class="caption">
-										<h3>Feugiat Lorem</h3>
-										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
-										</ul>
-									</div>
-								</article>
-								<article>
-									<a href="images/gallery/fulls/03.jpg" class="image">
-										<img src="images/gallery/thumbs/03.jpg" alt="" />
-									</a>
-									<div class="caption">
-										<h3>Magna Amet</h3>
-										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
-										</ul>
-									</div>
-								</article>
-								<article>
-									<a href="images/gallery/fulls/04.jpg" class="image">
-										<img src="images/gallery/thumbs/04.jpg" alt="" />
-									</a>
-									<div class="caption">
-										<h3>Sed Tempus</h3>
-										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
-										</ul>
-									</div>
-								</article>
-								<article>
-									<a href="images/gallery/fulls/05.jpg" class="image">
-										<img src="images/gallery/thumbs/05.jpg" alt="" />
-									</a>
-									<div class="caption">
-										<h3>Ultrices Magna</h3>
-										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
-										</ul>
-									</div>
-								</article>
-								<article>
-									<a href="images/gallery/fulls/06.jpg" class="image">
-										<img src="images/gallery/thumbs/06.jpg" alt="" />
-									</a>
-									<div class="caption">
-										<h3>Sed Tempus</h3>
-										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
-										</ul>
-									</div>
-								</article>
-								<article>
-									<a href="images/gallery/fulls/07.jpg" class="image">
-										<img src="images/gallery/thumbs/07.jpg" alt="" />
-									</a>
-									<div class="caption">
-										<h3>Ipsum Lorem</h3>
-										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
-										</ul>
-									</div>
-								</article>
-								<article>
-									<a href="images/gallery/fulls/08.jpg" class="image">
-										<img src="images/gallery/thumbs/08.jpg" alt="" />
-									</a>
-									<div class="caption">
-										<h3>Magna Risus</h3>
-										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
-										</ul>
-									</div>
-								</article>
-								<article>
-									<a href="images/gallery/fulls/09.jpg" class="image">
-										<img src="images/gallery/thumbs/09.jpg" alt="" />
-									</a>
-									<div class="caption">
-										<h3>Tempus Dolor</h3>
-										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
-										</ul>
-									</div>
-								</article>
-								<article>
-									<a href="images/gallery/fulls/10.jpg" class="image">
-										<img src="images/gallery/thumbs/10.jpg" alt="" />
-									</a>
-									<div class="caption">
-										<h3>Sed Etiam</h3>
-										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
-										</ul>
-									</div>
-								</article>
-								<article>
-									<a href="images/gallery/fulls/11.jpg" class="image">
-										<img src="images/gallery/thumbs/11.jpg" alt="" />
-									</a>
-									<div class="caption">
-										<h3>Magna Lorem</h3>
-										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
-										</ul>
-									</div>
-								</article>
-								<article>
-									<a href="images/gallery/fulls/12.jpg" class="image">
-										<img src="images/gallery/thumbs/12.jpg" alt="" />
-									</a>
-									<div class="caption">
-										<h3>Ipsum Dolor</h3>
-										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
-										</ul>
-									</div>
-								</article>
-							</div>
+				<!-- Images -->
+				<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+					<div class="content">
+						<h2>Vorbilder damals und heute:<br>Ritter und Prinzessinnen</h2>
+						<p align="justify">In Amerika gibt es jedenfalls einige Lukes, wie in Grafik XY zu sehen. Woran das liegt? Vermutlich getrieben durch Heiligtümer aus einer Galaxis weit, weit entfernt, wie eine kultivierte Person sagen würde. Seit dem ersten Star Wars Abenteuer im Jahr 1977 genießt der Name Luke eine steigende Beliebtheit bei frisch gebackenen Eltern. Der Name war zwar schon vor dem Film beliebt, jedoch explodierten die Zahlen danach nach oben. Bis zu seinem Höhepunkt im Jahr 2014 mit 10.510 Lukes, die die Welt erblickten. Im selben Jahr wurden die Rechte am Star Wars Franchise an Disney verkauft und eine neue Trilogie rund um Luke, Han Solo und Prinzessin Leia wurde angekündigt.</p>
+					</div>
+					<div class="image" id="Luke" style="padding:6.5rem 5% 0 0;position:relative;"></div>
+				</section>
 
-					</section>
+				<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+					<div class="content">
+						<p align="justify">Eine ähnliche Entwicklung zeigte schlussendlich auch der Name Leia. Mit einem rasanten Anstieg auf ein neues Niveau beim Start der ersten Star Wars Geschichte dürfen sich nun auch mehr Menschen so nennen. Ihren bisherigen Höhepunkt im Jahr 2017 erreichte der Name jedoch zur traurigsten Zeit der Figur, nachdem deren Schauspielerin Carrie Fisher im Dezember 2016 verstarb. Zu Ehren ihrer verstorbenen Prinzessin benannten wohl nicht wenige Fans ihr Kind nach Leia.</p>
+					</div>
+					<div class="image" id="Leia" style="padding:0rem 5% 0 0;position:relative;"></div>
+				</section>
 
-				<!-- Six -->
-					<section class="wrapper style1 align-center">
-						<div class="inner">
-							<h2>Ipsum sed consequat</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum.</p>
-							<div class="items style1 medium onscroll-fade-in">
-								<section>
-									<span class="icon style2 major fa-gem"></span>
-									<h3>Lorem</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-								</section>
-								<section>
-									<span class="icon solid style2 major fa-save"></span>
-									<h3>Ipsum</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-								</section>
-								<section>
-									<span class="icon solid style2 major fa-chart-bar"></span>
-									<h3>Dolor</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-								</section>
-								<section>
-									<span class="icon solid style2 major fa-wifi"></span>
-									<h3>Amet</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-								</section>
-								<section>
-									<span class="icon solid style2 major fa-cog"></span>
-									<h3>Magna</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-								</section>
-								<section>
-									<span class="icon style2 major fa-paper-plane"></span>
-									<h3>Tempus</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-								</section>
-								<section>
-									<span class="icon solid style2 major fa-desktop"></span>
-									<h3>Aliquam</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-								</section>
-								<section>
-									<span class="icon solid style2 major fa-sync-alt"></span>
-									<h3>Elit</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-								</section>
-								<section>
-									<span class="icon solid style2 major fa-hashtag"></span>
-									<h3>Morbi</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-								</section>
-								<section>
-									<span class="icon solid style2 major fa-bolt"></span>
-									<h3>Turpis</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-								</section>
-								<section>
-									<span class="icon solid style2 major fa-envelope"></span>
-									<h3>Ultrices</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-								</section>
-								<section>
-									<span class="icon solid style2 major fa-leaf"></span>
-									<h3>Risus</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-								</section>
-							</div>
-						</div>
-					</section>
 
-				<!-- Seven -->
-					<section class="wrapper style1 align-center">
-						<div class="inner medium">
-							<h2>Get in touch</h2>
-							<form method="post" action="#">
-								<div class="fields">
-									<div class="field half">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" value="" />
-									</div>
-									<div class="field half">
-										<label for="email">Email</label>
-										<input type="email" name="email" id="email" value="" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="6"></textarea>
-									</div>
-								</div>
-								<ul class="actions special">
-									<li><input type="submit" name="submit" id="submit" value="Send Message" /></li>
-								</ul>
-							</form>
 
-						</div>
-					</section>
+				<!-- Images -->
+				<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
+					<div class="content">
+						<h2>Viele unterschiedliche Werke verzaubern</h2>
+						<p align="justify">Die Macht war mit Anakin – Lukes und Leias Vater – erst viele Jahre nach seinen Kindern. Jahrzehnte später, mit dem Start der Prequel Trilogie im Jahr 1999, hievte sich der Name Anakin auf eine höhere Ebene. Zufällig wurde parallel zu den neuen Star Wars Filmen eine neue Franchise auf die Leinwände projiziert: Harry Potter. Der Protagonist bietet leider keinen allzu außergewöhnlichen Namen, dafür seine beste Freundin Hermione. Ihr Name duellierte sich Anfang der 2000er mit Anakin fast Kopf an Kopf. Ausgerechnet im Jahr 2003, eines der wenigen Jahre in der Chronologie der Reihe, in dem kein Harry Potter Film herauskam, übertrumpfte sie schlussendlich den Auserwählten aus Star Wars. Möglicherweise beschwerte sich Anakin in diesem Jahr etwas zu sehr über Sand. Das Gleichgewicht in der Macht war ihm aber auch egal, weil er danach einen verhältnismäßig rasanteren Aufstieg erlebte – die dunkle Seite war wohl zu stark in ihm.</p>
+					</div>
+					<div class="image" id="AnHerBalken" style="padding:8rem 0 0 5%;position:relative;"></div>
+				</section>
+
+				<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
+					<div class="content">
+						<p align="justify" style="padding:1rem 0 0 0;">Neben Hermione fällt in den Zahlen noch Severus auf. Im Jahr 2016 wurden 32 Kinder nach ihm benannt. Es ist aber unwahrscheinlich, dass Severus Snape sich dafür verantwortlich zeichnet. Das ist schade für den Prinzen, aber vielmehr deutet sich ein Zusammenhang zur Figur Albus Severus Potter, dem Sohn von Harry Potter, an. Dieser spielt eine tragende Rolle im Theaterstück und dazugehörigen Buch Harry Potter and the Cursed Child, die im erwähnten Jahr 2016 veröffentlicht wurden.</p>
+					</div>
+					<div class="image" id="AnDrHeSe" style="padding:0rem 0 0 5%;position:relative;"></div>
+				</section>
+
+
+				<!-- Images -->
+				<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+					<div class="content">
+						<h2>Egal ob alt oder neu:<br>Aktuell muss es sein</h2>
+						<p align="justify">Arya, die in der Serie Game of Thrones aus „Winter is coming“ ein „Winter won’t come anytime soon“ machte, ist im Vergleich zu ihren Serienkollegen auf einem wahren Höhenflug. Stellt sich die Frage woran die Eltern bei der Namenswahl dachten? An eine Attentäterin? An ein blindes Kind? An Rache? Die Erlösung? Das weiß wohl nur der gesichtslose Mann. Der Name stammt ursprünglich aus dem Persischen und bedeutet „ehrenhaft“. Sofern der Name der erste Schritt ist, um eine Persönlichkeit zu formen, klingt das doch schon mal vielversprechend.</p>
+					</div>
+					<div class="image" id="Arya" style="padding:6.5rem 5% 0 0;position:relative;"></div>
+				</section>
+
+				<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+					<div class="content">
+						<p align="justify">Anders als bei Arya, existierte der Name Daenerys vor der Serie gar nicht. Sie wurde vom Autoren George R.R. Martin geschaffen. Auch der Name wirkte wohl sehr vielversprechend auf viele Eltern. Nicht zu vergessen sind all die noblen Taten der Serienfigur, die unzählige Sklaven befreite und sehr loyal zu ihren Freunden war. Das erklärt den unaufhaltsamen Anstieg in der Grafik XY. Und doch ist ein Rückfall nach ihrem Höhepunkt 2018 zu erkennen. Im Jahr 2019 wurde die letzte Staffel der Serie ausgestrahlt und darin konnte sich Daenerys, sagen wir mal, nicht mehr zur Genüge kontrollieren und wurde etwas wütend. Wobei so ein aggressiver Sinneswandel Anakins Ruf bei frisch gewordenen Eltern auch nicht schadete.<br>Seit Beginn der Serie befindet sich noch dazu der Name Tyrion stabil auf einem erhöhten Niveau, dicht unter Daenerys. Die Hand des Königs bleibt schlussendlich nur die Hand des Königs. Nicht mehr und nicht weniger. Hoffentlich verlieren sich die nach ihm benannten Kinder zur Problemlösung nicht immer wieder im Wein. George R.R. Martin sah in der Figur Tyrion den hässlichsten, aber auch intelligentesten Charakter in Westeros. Ein vermischtes Schicksal für ein Kind.</p>
+					</div>
+					<div class="image" id="DaenTyr" style="padding:6.5rem 5% 0 0;position:relative;"></div>
+				</section>
+
+				<!-- Images -->
+				<section class="wrapper style1 align-center">
+					<div class="inner">
+						<h2>Das Spiel um den Thron</h2>
+						<p align="justify">Autoren wissen welche Macht unverwechselbare Namen haben, sobald die Figur Menschen inspirieren kann. Medien prägen unsere Kulturen. Es braucht nicht mehr lediglich reale Vorbilder. Fiktive Figuren können auch die Welt bewegen. Dafür reicht ein gut geschriebener Charakter, eine wertvolle Geschichte oder einfach nur Glück. Produzenten würden darin vermutlich eine weitere Möglichkeit sehen, um sich vermarkten zu können. Sobald eine reale Daenerys vor einem steht, denkt man doch sofort an die Serie Game of Thrones.</p>
+					</div>
+				</section>
+
+				<div id="00_Movienames_gesamt" style="padding:0 5%;position:relative;"></div>
+
+
+
+				<section class="wrapper style1 align-center">
+					<div class="inner">
+						<p align="justify" style="padding:5rem 0;position:relative">Doch wie schneiden im Vergleich alltägliche Vornamen ab? Als Richtwert betrachten wir den Überflieger Luke. In folgender Grafik können unterschiedliche Namen in unterschiedlichen Jahren mit dem Skywalker Sprössling verglichen werden. Was gibt es denn auch schöneres als einen Namen zu haben, der beliebter ist als der des größten und beliebtesten Jedi-Ritters vieler Generationen?</p>
+					</div>
+				</section>
+
+				<div id="01_Bekannter_Als_Luke" style="padding:0 5%;position:relative;"></div>
+
+				<section class="wrapper style1 align-center">
+					<div class="inner">
+						<p align="justify">Doch egal wie häufig ein Name vorkommt: Jeder Name ist besonders und wird von jeder Person individuell mit Bedeutung gefüllt. Es gibt so viele Variationen wie Sterne am Himmel. Alle haben ihre eigene Geschichte. Auch abseits zahlreicher Film- und Serienfiguren, denn jeder Name ist ein Star.</p>
+					</div>
+				</section>
+
+
+				<!-- TradingView Widget BEGIN -->
+				<div class="tradingview-widget-container">
+				  <div class="tradingview-widget-container__widget"></div>
+				  <div class="tradingview-widget-copyright"><a href="https://de.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">Kurse</span></a> von TradingView</div>
+				  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+				  {
+				  "symbols": [
+				    {
+				      "description": "",
+				      "proName": "XETR:WDP"
+				    },
+				    {
+				      "description": "",
+				      "proName": "XETR:SOBA"
+				    },
+				    {
+				      "description": "",
+				      "proName": "XETR:NFC"
+				    },
+				    {
+				      "description": "",
+				      "proName": "XETR:AMZ"
+				    }
+				  ],
+				  "colorTheme": "dark",
+				  "isTransparent": true,
+				  "showSymbolLogo": true,
+				  "locale": "de_DE"
+				}
+				  </script>
+				</div>
+				<!-- TradingView Widget END -->
+
+
 
 				<!-- Footer -->
-					<footer class="wrapper style1 align-center">
+					<footer class="wrapper style1 align-center color1">
 						<div class="inner">
 							<ul class="icons">
-								<li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-								<li><a href="#" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
+								<li><a href="https://de-de.facebook.com/OTHAmbergWeiden/" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="https://twitter.com/sirpatstew?lang=de" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="https://www.instagram.com/othambergweiden/?hl=de" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
 							</ul>
-							<p>&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 						</div>
 					</footer>
 
 			</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
 	</body>
+
 </html>
