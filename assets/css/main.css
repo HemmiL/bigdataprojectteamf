@@ -56,7 +56,10 @@ body {
 }
 
 mark {
-	background-color: transparent;
+	background: url("/sternenhimmel.jpg");
+	background-repeat: repeat-y;
+	background-position: center;
+  	background-size: cover;
 	color: inherit;
 }
 
@@ -97,9 +100,12 @@ input, select, textarea {
 	*, *:before, *:after {
 		box-sizing: inherit;
 	}
-
+	/*KA was das für eine Farbe Festlegt*/
 	body {
-		background: #ffffff;
+		background: url("/sternenhimmel.jpg");
+		background-repeat: repeat-y;
+		background-position: center;
+  		background-size: cover;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -150,10 +156,11 @@ input, select, textarea {
 			}
 
 		}
+	/* Farbe des kleinen Textes im Banner und Footer*/
 
 	body {
-		background-color: #ffffff;
-		color: #000000;
+		background: url("/sternenhimmel.jpg");
+		color: Gainsboro;
 	}
 
 	body, input, select, textarea {
@@ -316,11 +323,11 @@ input, select, textarea {
 	}
 
 	input, select, textarea {
-		color: #000000;
+		color: Gainsboro;			/*change Link color from black #000000 to Gainsboro*/
 	}
 
 	a {
-		color: #000000;
+		color: Gainsboro;			/*change Link color from black #000000 to Gainsboro*/
 	}
 
 		a:hover {
@@ -328,11 +335,11 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #000000;
+		color: Gainsboro;			/*change Link color from black #000000 to Gainsboro*/
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #000000;
+		color: Gainsboro;			/*change Link color from black #000000 to Gainsboro*/
 	}
 
 	blockquote {
@@ -2187,8 +2194,8 @@ input, select, textarea {
 	button,
 	.button {
 		background-color: transparent;
-		box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2);
-		color: #000000 !important;
+		box-shadow: inset 0 0 0 1px Gainsboro;		/*Änderung der default-Button rand Farbe von rgba(0, 0, 0, 0.2) in Gainsboro*/
+		color: Gainsboro !important;			/*Änderung der default-Button Farbe von #000000 in Gainsboro*/
 	}
 
 		input[type="submit"]:hover,
@@ -2196,8 +2203,8 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			box-shadow: inset 0 0 0 1px #47D3E5;
-			color: #47D3E5 !important;
+			box-shadow: inset 0 0 0 1px #47D3E5;		/*Änderung der default-Button Hover rand Farbe von #47D3E5 in Whitesmoke*/
+			color: #47D3E5 !important;		/*Änderung der default-Button Hover Farbe in #47D3E5*/
 		}
 
 		input[type="submit"]:active,
@@ -2206,7 +2213,7 @@ input, select, textarea {
 		button:active,
 		.button:active {
 			background-color: rgba(71, 211, 229, 0.2);
-			box-shadow: inset 0 0 0 1px #47D3E5;
+			box-shadow: inset 0 0 0 1px #47D3E5;	/*Änderung der default-Button active Farbe von #47D3E5 in #47D3E5*/
 			color: #47D3E5 !important;
 		}
 
@@ -2215,7 +2222,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #000000;
+			background-color: Gainsboro;			/*Änderung der primary-Button Farbe von #000000 in Gainsboro*/
 			box-shadow: none;
 			color: #ffffff !important;
 		}
@@ -2225,7 +2232,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #47D3E5;
+				background-color: Gainsboro;		/*Änderung der primary-Button hover Farbe von #47D3E5 in Gainsboro*/
 			}
 
 			input[type="submit"].primary:active,
@@ -2233,7 +2240,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #1ebdd1;
+				background-color: Gainsboro;		/*Änderung der primary-Button active Farbe von #1ebdd1 in Gainsboro*/
 			}
 
 /* Form */
@@ -2615,14 +2622,14 @@ input, select, textarea {
 	}
 
 	a.icon.style2:hover:before {
-		box-shadow: inset 0 0 0 1px #47D3E5;
-		color: #47D3E5;
+		box-shadow: inset 0 0 0 1px #FF0000;
+		color: #FF0000;
 	}
 
 	a.icon.style2:active:before {
 		background-color: rgba(71, 211, 229, 0.1);
-		box-shadow: inset 0 0 0 1px #47D3E5;
-		color: #47D3E5;
+		box-shadow: inset 0 0 0 1px #990000;
+		color: #990000;
 	}
 
 /* Image */
@@ -2640,8 +2647,8 @@ input, select, textarea {
 		}
 
 		.image.left, .image.right {
-			width: 40%;
-			max-width: 10rem;
+			width: 50%;
+			max-width: 70%;
 		}
 
 			.image.left img, .image.right img {
@@ -2679,7 +2686,6 @@ input, select, textarea {
 			.image.main img {
 				width: 100%;
 			}
-
 /* List */
 
 	ol {
@@ -3807,6 +3813,7 @@ input, select, textarea {
 			object-position: right;
 		}
 
+
 /* Banner (style3) */
 
 	.banner.style3 {
@@ -4861,7 +4868,7 @@ input, select, textarea {
 	}
 
 		.spotlight.style1 .content {
-			padding: 7rem 7rem 5rem 7rem ;
+			padding: 5% ;
 			-moz-align-self: center;
 			-webkit-align-self: center;
 			-ms-align-self: center;
@@ -4874,7 +4881,7 @@ input, select, textarea {
 			-webkit-flex-shrink: 1;
 			-ms-flex-shrink: 1;
 			flex-shrink: 1;
-			width: 65%;
+			width: 55%;
 			max-width: 64rem;
 			margin: 0 auto;
 		}
@@ -4888,7 +4895,7 @@ input, select, textarea {
 			-webkit-flex-shrink: 0;
 			-ms-flex-shrink: 0;
 			flex-shrink: 0;
-			width: 35%;
+			width: 45%;
 			min-width: 25rem;
 			border-radius: 0;
 		}
@@ -7211,53 +7218,44 @@ input, select, textarea {
 	}
 
 /* Wrapper (style1) */
-
-	.wrapper.style1 > .inner {
-		padding: 7rem 3.5rem 5rem 3.5rem ;
-		margin: 0 auto;
-		max-width: 100%;
-		width: 64rem;
-	}
-
-		.wrapper.style1 > .inner.medium {
-			width: 48rem;
-		}
-
-		.wrapper.style1 > .inner.small {
-			width: 32rem;
-		}
-
-	@media screen and (max-width: 1680px) {
-
 		.wrapper.style1 > .inner {
-			padding: 5rem 2.5rem 3rem 2.5rem ;
+			padding: 1.5rem;
+			margin: 0 auto;
+			max-width: 100%;
+			width: 95%;
 		}
 
-	}
+			.wrapper.style1 > .inner.medium {
+				width: 50%;
+			}
 
-	@media screen and (max-width: 1280px) {
+			.wrapper.style1 > .inner.small {
+				width: 30%;
+			}
 
-		.wrapper.style1 > .inner {
-			padding: 4rem 4rem 2rem 4rem ;
+		@media screen and (max-width: 1280px) {
+
+			.wrapper.style1 > .inner {
+				padding: 1rem;
+			}
+
 		}
 
-	}
+		@media screen and (max-width: 980px) {
 
-	@media screen and (max-width: 980px) {
+			.wrapper.style1 > .inner {
+				padding: 0.7rem ;
+			}
 
-		.wrapper.style1 > .inner {
-			padding: 4.5rem 3rem 2.5rem 3rem ;
 		}
 
-	}
+		@media screen and (max-width: 736px) {
 
-	@media screen and (max-width: 736px) {
+			.wrapper.style1 > .inner {
+				padding: 0.5rem;
+			}
 
-		.wrapper.style1 > .inner {
-			padding: 3rem 2rem 1rem 2rem ;
 		}
-
-	}
 
 /* Wrapper (style2) */
 
@@ -8257,15 +8255,15 @@ input, select, textarea {
 
 		#wrapper > .invert {
 			background-color: #000000;
-			color: #ffffff;
+			color: #dcdcdc;
 		}
 
 			#wrapper > .invert input, #wrapper > .invert select, #wrapper > .invert textarea {
-				color: #ffffff;
+				color: #dcdcdc;
 			}
 
 			#wrapper > .invert a {
-				color: #ffffff;
+				color: #ff0000;
 			}
 
 				#wrapper > .invert a:hover {
@@ -8273,11 +8271,11 @@ input, select, textarea {
 				}
 
 			#wrapper > .invert strong, #wrapper > .invert b {
-				color: #ffffff;
+				color: #dcdcdc;
 			}
 
 			#wrapper > .invert h1, #wrapper > .invert h2, #wrapper > .invert h3, #wrapper > .invert h4, #wrapper > .invert h5, #wrapper > .invert h6 {
-				color: #ffffff;
+				color: #dcdcdc;
 			}
 
 			#wrapper > .invert blockquote {
@@ -8353,7 +8351,7 @@ input, select, textarea {
 					}
 
 			#wrapper > .invert label {
-				color: #ffffff;
+				color: #dcdcdc;
 			}
 
 			#wrapper > .invert input[type="text"],
@@ -8567,7 +8565,7 @@ input, select, textarea {
 		}
 
 		#wrapper > .color3 {
-			background-color: #ab7aad;
+			background: transparent;
 		}
 
 		#wrapper > .color4 {
